@@ -1,3 +1,73 @@
+*, *::before, *::after { box-sizing: border-box; }
+
 body{
-	font-family: monospace;
+	background:lightslategrey;
+	color:#0a0a0a;
+	margin:0;
+	font-family:sans-serif;
+}	
+
+h1{
+	font-size: 3rem;
+	text-transform: uppercase;
+	letter-spacing:0;
+	font-weight:bolder;
+	text-align: center;
+}
+
+header{
+	text-align: center;
+}
+
+
+
+h2{
+	font-size: 2rem;
+	text-transform: uppercase;
+	line-height: 1.6;
+}
+
+li a:hover{
+	background-color: blueviolet;
+  	font-size: 18px;
+}
+
+#tickets{
+	border: 2px solid;
+	color: #0a0a0a;
+	padding: auto;
+	margin: 50px;
+	box-shadow:8px 8px 0 #0a0a0a;
+}
+
+#line-up{
+	border: 2px solid;
+	color: #0a0a0a;
+	padding:auto;
+	margin: 50px;
+	box-shadow:8px 8px 0 #0a0a0a;
+}
+
+#info{
+	border: 2px solid;
+	color: #0a0a0a;
+	padding: auto;
+	margin: 50px;
+	box-shadow:8px 8px 0 #0a0a0a;
+}
+
+nav ul{ 
+  	display: flex; 
+  	flex-direction:row; 
+  	justify-content: space-between;
+  	flex-wrap: wrap; 
+}	
+
+#line-up, #tickets, #info{
+	background: transparent;
+	background-color: #ffffff;
+}
+
+table{
+	
 }
